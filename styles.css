@@ -1,0 +1,21 @@
+
+.octocat img{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 32%;
+    border-style: inset;
+    border-radius: 5px;
+    float: left;
+
+}
+
+body{
+    width: 80%;
+}
+
+.authors{
+    float: right;
+
+    clear:both;
+}
