@@ -1,15 +1,19 @@
 
-.octodex{
+/*.octodex{
     column-count: 3;
-}   column-gap: 1em;
-.octocat img{
+}   column-gap: 1em;*/
 
+.octocat img{
+    column-count: 3;
+    column-gap: 1em;
     display: inline-block;
     /*float: left;*/
     width: 25%;
     border-style: outset;
     border-radius: 5px;
     /*float: left;*/
+    padding: 5px;
+
 
 }
 
