@@ -1,24 +1,24 @@
 
-.octodex{
+/*.octodex{
     column-count: 3;
-}   column-gap: 1em;
+}   column-gap: 1em;*/
 
-.octocat li{
+li.octocat{
     display: inline-block;
-    float: right;
-    width: 25%;
-    margin: auto;
+    height: 10%;
+    width:10%;
     border-style: outset;
     border-radius: 5px;
-    /*float: left;*/
+    float: left;
     padding: 5px;
 
 }
 
 body{
+    width: 120%;
 }
 
-.authors{
+.authors img{
     clear: both;
     width: 100px;
     height: 100px;
@@ -38,4 +38,8 @@ span{
     position: absolute;
     font-size: 25px;
     font-family: arial, cursive;
+}
+.image-footer, .authors{
+    display: inline-block;
+    margin-top 100px;
 }
