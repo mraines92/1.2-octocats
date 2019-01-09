@@ -1,21 +1,30 @@
 
+.octodex{
+    column-count: 3;
+}   column-gap: 1em;
 .octocat img{
-    position: relative;
+
     display: inline-block;
-    float: left;
-    width: 32%;
-    border-style: inset;
+    /*float: left;*/
+    width: 25%;
+    border-style: outset;
     border-radius: 5px;
-    float: left;
+    /*float: left;*/
 
 }
 
 body{
-    width: 80%;
 }
 
 .authors{
-    float: right;
+    clear: both;
+    width: 100px;
+    height: 100px;
 
-    clear:both;
+
+}
+
+.image-number{
+    font-size: 35px;
+    font-family: arial, cursive;
 }
