@@ -3,25 +3,24 @@
     column-count: 3;
 }   column-gap: 1em;*/
 
-li.octocat{
+.octocat{
     display: inline-block;
     height: 10%;
     width:10%;
     border-style: outset;
     border-radius: 5px;
-    float: left;
     padding: 5px;
 
 }
 
 body{
-    width: 120%;
+
 }
 
 .authors img{
     clear: both;
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
 }
 
 .image-number{
