@@ -4,8 +4,7 @@
 }   column-gap: 1em;*/
 
 .octocat img{
-    column-count: 3;
-    column-gap: 1em;
+
     display: inline-block;
     /*float: left;*/
     width: 25%;
