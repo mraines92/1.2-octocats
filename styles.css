@@ -1,18 +1,17 @@
 
-/*.octodex{
+.octodex{
     column-count: 3;
-}   column-gap: 1em;*/
+}   column-gap: 1em;
 
-.octocat img{
-
+.octocat li{
     display: inline-block;
-    /*float: left;*/
+    float: right;
     width: 25%;
+    margin: auto;
     border-style: outset;
     border-radius: 5px;
     /*float: left;*/
     padding: 5px;
-
 
 }
 
@@ -23,11 +22,20 @@ body{
     clear: both;
     width: 100px;
     height: 100px;
-
-
 }
 
 .image-number{
     font-size: 35px;
+    font-family: arial, cursive;
+}
+span{
+    font-size: 25px;
+    font-family: arial, cursive;
+
+}
+
+.image-caption span{
+    position: absolute;
+    font-size: 25px;
     font-family: arial, cursive;
 }
